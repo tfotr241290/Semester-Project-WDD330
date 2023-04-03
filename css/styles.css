@@ -46,7 +46,7 @@ body{
     height: 40px;
 }
 
-.heading{
+.heading,.sHeader{
     display: flex;
     justify-content: space-between;
     margin: 2rem;
@@ -190,6 +190,13 @@ form {
     width: 100%;
     height: auto;
     border-radius: 1rem;
+}
+
+.thanks{
+    text-align: center;
+    margin: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 
 footer{

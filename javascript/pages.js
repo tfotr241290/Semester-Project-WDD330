@@ -1,13 +1,102 @@
-import { home } from "./home.js"
+
+
+const home = `
+<div id="root">
+    <header class="heading"></header>
+    <nav class="navigation"></nav>
+</div>
+<main>
+
+    <div class="models">
+
+    </div>
+
+    <div class="grid">
+        <div class="pickup">
+            <label for="pickup">PickUp:</label>
+            <input type="date" id="pickup" name="pickup">
+            
+        </div>
+        <div class="arrival">
+            <label for="arrival">Arrival:</label>
+            <input type="date" id="arrival" name="arrival">
+            
+        </div>
+    </div>
+
+    <div class="submission">
+        <input type="submit" value="SELECT MY CAR" onclick="getPageContent('cars')">
+    </div>
+
+    <div id="car-animation">
+        <img src="https://ik.imagekit.io/tfotr241290/animation-car.png?updatedAt=1679942302753" alt="animation-car">
+    </div>
+
+    <div class="slogan">
+        <h1 class="slog">With us you hire the best car at the best price</h1>
+    </div>
+
+
+    <div class="suscribe">
+        <form method="get" id="myForm" action="#">
+            <div class="container">
+              <h2>Subscribe to our Newsletter</h2>
+              <p>If you want to stay updated about new models availability, limited offers and promotions, enter your name and e-mail address and you will be receiveing a weekly e-mail.</p>
+            </div>
+          
+            <div class="container">
+              
+              <input type="text" id="name" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+              </label>
+            </div>
+          
+            <div class="container">
+            <a href="#" onclick="getPageContent('subscribe')"><input type="submit" value="Subscribe"></a>
+            </div>
+          </form>
+    </div>
+    
+</main>`
+
+
+
+
+const subscribe = `
+    <div class="sHeading">
+        <header class="sHeader">
+        <section class="logo"><a href="./index.html"><img class="nav-img" src="https://ik.imagekit.io/tfotr241290/Black_n_White_Luxury__Rent_Car_Logo.png?updatedAt=1679597309897" alt="navimgcar"></a></section><section class="media"><a href="https://www.facebook.com"><img class="face" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt"facebooklogo"></a> <a href="https://www.twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" alt"facebooklogo"></a> <a href="https://www.instagram.com"><img class="insta" src="https://cdn-icons-png.flaticon.com/128/3670/3670125.png" alt"facebooklogo"></a></section>
+        </header>
+    </div>
+    
+    <div class="thanks">
+        <h1>Welcome to UMC-Car Rental and thank your for subscribing to our newsletter.</h1>
+        <p>We really appreciate your loyalty. We will maintain you uptaded with the newest offers and limited promotions</p>
+    </div>`;
+
+const cars = `
+    <div class="sHeading">
+        <header class="sHeader">
+            <section class="logo"><a href="./index.html"><img class="nav-img" src="https://ik.imagekit.io/tfotr241290/Black_n_White_Luxury__Rent_Car_Logo.png?updatedAt=1679597309897" alt="navimgcar"></a></section><section class="media"><a href="https://www.facebook.com"><img class="face" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt"facebooklogo"></a> <a href="https://www.twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" alt"facebooklogo"></a> <a href="https://www.instagram.com"><img class="insta" src="https://cdn-icons-png.flaticon.com/128/3670/3670125.png" alt"facebooklogo"></a></section>
+        </header>
+    </div>
+
+    <div class="carList">
+
+    </div>
+`
+document.querySelector(".carList")
 
 const pages = {
     'home':`${home}`,
-    'cars':``,
-    'subscribe':``,
+    'cars':`${cars}`,
+    'subscribe':`${subscribe}`,
     'checkout':``
 }
 
-export function getPageContent(page){
+function getPageContent(page){
     let contentToReturn;
 
     switch(page){
@@ -27,5 +116,7 @@ export function getPageContent(page){
             contentToReturn = pages.home;
             break;
     }
+
     document.getElementById('content').innerHTML = contentToReturn;
 }
+
