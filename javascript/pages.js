@@ -1,4 +1,3 @@
-
 const home = `
 <div id="root">
     <header class="heading"></header>
@@ -24,7 +23,7 @@ const home = `
     </div>
 
     <div class="submission">
-        <input type="submit" value="SELECT MY CAR" onclick="getPageContent('cars')">
+        <a href="cars.html"><input type="submit" value="SELECT MY CAR" onclick="getPageContent('cars')"></a>
     </div>
 
     <div id="car-animation">
@@ -58,10 +57,7 @@ const home = `
           </form>
     </div>
     
-</main>`
-
-
-
+</main>`;
 
 const subscribe = `
     <div class="sHeading">
@@ -88,7 +84,7 @@ const cars = `
         </div>
     </main>
     <button type="submit" onclick="getPageContent('checkout')">CHECKOUT</button>
-`
+`;
 
 const checkout = `
 <div class="sHeading">
@@ -112,37 +108,36 @@ const checkout = `
                 <label for="cc-csc">Security code<input id="cc-csc" name="cc-csc" inputmode="numeric" maxlength="3" required></label>
             </fieldset>
         </form>
-    </main>`
-document.querySelector(".carList")
+    </main>`;
+document.querySelector(".carList");
 
 const pages = {
-    'home':`${home}`,
-    'cars':`${cars}`,
-    'subscribe':`${subscribe}`,
-    'checkout':`${checkout}`
+  home: `${home}`,
+  cars: `${cars}`,
+  subscribe: `${subscribe}`,
+  checkout: `${checkout}`,
+};
+
+function getPageContent(page) {
+  let contentToReturn;
+
+  switch (page) {
+    case "home":
+      contentToReturn = pages.home;
+      break;
+    case "cars":
+      contentToReturn = pages.cars;
+      break;
+    case "subscribe":
+      contentToReturn = pages.subscribe;
+      break;
+    case "checkout":
+      contentToReturn = pages.checkout;
+      break;
+    default:
+      contentToReturn = pages.home;
+      break;
+  }
+
+  document.getElementById("content").innerHTML = contentToReturn;
 }
-
-function getPageContent(page){
-    let contentToReturn;
-
-    switch(page){
-        case 'home':
-            contentToReturn = pages.home;
-            break;
-        case 'cars':
-            contentToReturn = pages.cars;
-            break;
-        case 'subscribe':
-            contentToReturn = pages.subscribe;
-            break; 
-        case 'checkout':
-            contentToReturn = pages.checkout;
-            break;
-        default:
-            contentToReturn = pages.home;
-            break;
-    }
-
-    document.getElementById('content').innerHTML = contentToReturn;
-}
-
