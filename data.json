@@ -1,0 +1,76 @@
+{
+    "carInfo": [
+        {
+          "carpic": "",
+          "brand": "Chevrolet Spark",
+          "capacity": "5 person",
+          "doors": "4 doors",
+          "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+          "price": "42,83 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Nissan Qashqai",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura de robo",
+            "price": "33,02 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Kia Picanto",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+            "price": "42,83 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Renault Twingo",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+            "price": "22,85 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Chevrolet Spark GT",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Cobertura de daños a terceros, Cobertura de robo",
+            "price": "42,83 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Renault Logan",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros",
+            "price": "32,83 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Chevrolet Onix",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de robo",
+            "price": "33,26 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Kia Rio",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+            "price": "22,63 per day"
+        },
+        {
+            "carpic": "",
+            "brand": "Nissan Versa",
+            "capacity": "5 person",
+            "doors": "4 doors",
+            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión",
+            "price": "30,70 per day"
+        }
+      ]
+  }
