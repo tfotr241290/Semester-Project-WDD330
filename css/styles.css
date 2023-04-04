@@ -226,19 +226,26 @@ form label.top input:required:valid {border-left: rgb(202, 252, 202) solid 6px;}
 
 .cards div {
     display: grid;
-    grid-template: ". logo h2 price" auto 
-                    "input logo p1 price" auto 
-                    "input logo p2 price" auto
-                    ". logo p3 price" auto;
-    grid-template-columns: repeat(4);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    padding: 2%;
 }
+.cards p{margin: 0;}
+.cards #check{width: 100%; grid-column: 1; grid-row: 4/5;}
 .cards img{
-    width: 30%;
-
+    width: 50%; margin: auto; padding: auto; 
+    grid-column: 2;grid-row: 1/5;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
-.cards input {
-    width: 40%;
-}
+.cards h2{grid-column: 3; grid-row: 1/2;}
+.cards .capacity{grid-column: 3; grid-row: 2/3;}
+.cards .doors{grid-column: 3; grid-row: 3/4;}
+.cards .carInfo{grid-column: 3; grid-row: 4/5;}
+.cards .price{grid-column: 4; grid-row: 1/2;}
+.separator {grid-column: 1/5; border-top: 1px solid black;padding:0; margin-top: 6%;}
 
 @media only screen and (max-width : 450px){
 

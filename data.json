@@ -1,63 +1,63 @@
 {
     "carInfo": [
         {
-          "carpic": "",
-          "brand": "Chevrolet Spark",
+          "carpic": "../images/audi.jpg",
+          "brand": "Audi",
           "capacity": "5 person",
           "doors": "4 doors",
           "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
           "price": "42,83 per day"
         },
         {
-            "carpic": "",
-            "brand": "Nissan Qashqai",
+            "carpic": "../images/bmw-van.jpg",
+            "brand": "BMW Van",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura de robo",
             "price": "33,02 per day"
         },
         {
-            "carpic": "",
-            "brand": "Kia Picanto",
+            "carpic": "../images/bmw.jpg",
+            "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
             "price": "42,83 per day"
         },
         {
-            "carpic": "",
-            "brand": "Renault Twingo",
+            "carpic": "../images/bmw2.jpg",
+            "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Cancelación gratis (48h), Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
             "price": "22,85 per day"
         },
         {
-            "carpic": "",
-            "brand": "Chevrolet Spark GT",
+            "carpic": "../images/bmw3.jpg",
+            "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Cancelación gratis (48h), Cobertura de daños a terceros, Cobertura de robo",
             "price": "42,83 per day"
         },
         {
-            "carpic": "",
-            "brand": "Renault Logan",
+            "carpic": "../images/volkswagen.jpg",
+            "brand": "Volkswagen",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros",
             "price": "32,83 per day"
         },
         {
-            "carpic": "",
-            "brand": "Chevrolet Onix",
+            "carpic": "../images/kia-picanto.jpg",
+            "brand": "Kia Picanto",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de robo",
             "price": "33,26 per day"
         },
         {
-            "carpic": "",
+            "carpic": "../images/kia.jpg",
             "brand": "Kia Rio",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -65,8 +65,8 @@
             "price": "22,63 per day"
         },
         {
-            "carpic": "",
-            "brand": "Nissan Versa",
+            "carpic": "../images/opel.jpg",
+            "brand": "Opel",
             "capacity": "5 person",
             "doors": "4 doors",
             "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión",
