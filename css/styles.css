@@ -132,7 +132,7 @@ form {
     font-size: 17px;
   }
   
-  input[type=text], input[type=submit] {
+  input[type=text], input[type=submit], input[type=email], input[type=tel], input#cc-number, input#cc-name, input#cc-exp, input#cc-csc{
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -201,7 +201,36 @@ footer{
     margin-bottom: 0;
 }
 
+/* CHECKOUT */
 
+.top input, .top textarea, label.top, input#cc-exp, input#cc-csc{
+	font-size: 13px;
+	width: 100%;
+	padding: 16px;
+	border-radius: 4px;
+}
+input#cc-exp, input#cc-csc {margin-left: 1%; width: 20%;}
+fieldset {margin-bottom: 5%;}
+form label.top input:required {border-left: rgb(247, 187, 187) solid 6px;}
+form label.top input:required:valid {border-left: rgb(202, 252, 202) solid 6px;}
+
+/* CARS */
+
+.cards div {
+    display: grid;
+    grid-template: ". logo h2 price" auto 
+                    "input logo p1 price" auto 
+                    "input logo p2 price" auto
+                    ". logo p3 price" auto;
+    grid-template-columns: repeat(4);
+}
+.cards img{
+    width: 30%;
+
+}
+.cards input {
+    width: 40%;
+}
 @media only screen and (max-width : 450px){
 
     .heading, .navigation{
