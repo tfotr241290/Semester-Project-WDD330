@@ -1,7 +1,7 @@
 {
     "carInfo": [
         {
-          "carpic": "./images/audi.jpg",
+          "carpic": "./images/audi.png",
           "brand": "Audi",
           "capacity": "5 person",
           "doors": "4 doors",
@@ -9,15 +9,15 @@
           "price": "42,83 per day"
         },
         {
-            "carpic": "./images/bmw-van.jpg",
+            "carpic": "./images/bmw4.png",
             "brand": "BMW Van",
             "capacity": "5 person",
-            "doors": "4 doors",
+            "doors": "2 doors",
             "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura de robo",
             "price": "33,02 per day"
         },
         {
-            "carpic": "./images/bmw.jpg",
+            "carpic": "./images/bmw.png",
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -25,7 +25,7 @@
             "price": "42,83 per day"
         },
         {
-            "carpic": "./images/bmw2.jpg",
+            "carpic": "./images/bmw2.png",
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -33,7 +33,7 @@
             "price": "22,85 per day"
         },
         {
-            "carpic": "./images/bmw3.jpg",
+            "carpic": "./images/bmw3.png",
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -41,7 +41,7 @@
             "price": "42,83 per day"
         },
         {
-            "carpic": "./images/volkswagen.jpg",
+            "carpic": "./images/volkswagen.png",
             "brand": "Volkswagen",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -49,7 +49,7 @@
             "price": "32,83 per day"
         },
         {
-            "carpic": "./images/kia-picanto.jpg",
+            "carpic": "./images/kia-picanto.png",
             "brand": "Kia Picanto",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -57,7 +57,7 @@
             "price": "33,26 per day"
         },
         {
-            "carpic": "./images/kia.jpg",
+            "carpic": "./images/kia.png",
             "brand": "Kia Rio",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -65,7 +65,7 @@
             "price": "22,63 per day"
         },
         {
-            "carpic": "./images/opel.jpg",
+            "carpic": "./images/opel.png",
             "brand": "Opel",
             "capacity": "5 person",
             "doors": "4 doors",

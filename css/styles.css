@@ -224,16 +224,20 @@ form label.top input:required:valid {border-left: rgb(202, 252, 202) solid 6px;}
 
 /* CARS */
 
-.cards div {
+.cards .card {
+    background-color: var(--light-grey);
+    border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(4, auto);
-    padding: 2%;
+    margin: 3%;
+    padding: 3%;
+    box-shadow: 0 3px 6px rgba(25,32,36,0.16)
 }
 .cards p{margin: 0;}
 .cards #check{width: 100%; grid-column: 1; grid-row: 4/5;}
 .cards img{
-    width: 50%; margin: auto; padding: auto; 
+    width: 50%; min-width: 70px; margin: auto; padding: 0; 
     grid-column: 2;grid-row: 1/5;
     justify-content: center;
     justify-items: center;
@@ -244,8 +248,9 @@ form label.top input:required:valid {border-left: rgb(202, 252, 202) solid 6px;}
 .cards .capacity{grid-column: 3; grid-row: 2/3;}
 .cards .doors{grid-column: 3; grid-row: 3/4;}
 .cards .carInfo{grid-column: 3; grid-row: 4/5;}
-.cards .price{grid-column: 4; grid-row: 1/2;}
-.separator {grid-column: 1/5; border-top: 1px solid black;padding:0; margin-top: 6%;}
+.cards .price{text-align: center; padding: 0 15% ; grid-column: 5; grid-row: 4/5;}
+.separator {grid-column: 1/4; grid-row: 7; border-top: 1px solid #d1d1d1; margin-top: 2%;}
+hr{height: 90%; background-color: #d1d1d1; grid-column: 4; grid-row: 1/5; margin: 10px;}
 
 @media only screen and (max-width : 450px){
 
@@ -288,4 +293,9 @@ form label.top input:required:valid {border-left: rgb(202, 252, 202) solid 6px;}
         margin: 0;
         margin-top: 2rem;
     }
+    .cards .capacity, .cards .doors, .cards .carInfo, .card .brand{ 
+        grid-column: 4; padding-left:12%;
+    }
+    .cards .price{grid-column: 4; grid-row: 7; padding-top: 10%;}
+    hr{height: 100%; grid-column: 3;  margin: 0;}
 }
