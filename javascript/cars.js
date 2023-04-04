@@ -31,6 +31,7 @@ async function fetchData(){
     let h3 = document.createElement('h3');
     let logo = document.createElement('img');
     let separator = document.createElement('div');
+    let hr = document.createElement('hr');
 
     logo.setAttribute('src', carInfo.carpic);
     logo.setAttribute('alt',` ${carInfo.brand}`);
@@ -46,12 +47,14 @@ async function fetchData(){
     h2.textContent = `${carInfo.brand}`;
     h3.textContent = `$${carInfo.price}`;
 
+    card.classList.add('card');
     card.appendChild(input).classList.add('check');
     card.appendChild(logo);
     card.appendChild(h2).classList.add('brand');
     card.appendChild(p1).classList.add('capacity');
     card.appendChild(p2).classList.add('doors');
     card.appendChild(p3).classList.add('carInfo');
+    card.appendChild(hr);
     card.appendChild(h3).classList.add('price');
     card.appendChild(separator).classList.add('separator');
 
