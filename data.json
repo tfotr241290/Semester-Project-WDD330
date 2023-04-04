@@ -1,7 +1,7 @@
 {
     "carInfo": [
         {
-          "carpic": "../images/audi.jpg",
+          "carpic": "./images/audi.jpg",
           "brand": "Audi",
           "capacity": "5 person",
           "doors": "4 doors",
@@ -9,7 +9,7 @@
           "price": "42,83 per day"
         },
         {
-            "carpic": "../images/bmw-van.jpg",
+            "carpic": "./images/bmw-van.jpg",
             "brand": "BMW Van",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -17,7 +17,7 @@
             "price": "33,02 per day"
         },
         {
-            "carpic": "../images/bmw.jpg",
+            "carpic": "./images/bmw.jpg",
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -25,7 +25,7 @@
             "price": "42,83 per day"
         },
         {
-            "carpic": "../images/bmw2.jpg",
+            "carpic": "./images/bmw2.jpg",
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -33,7 +33,7 @@
             "price": "22,85 per day"
         },
         {
-            "carpic": "../images/bmw3.jpg",
+            "carpic": "./images/bmw3.jpg",
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -41,7 +41,7 @@
             "price": "42,83 per day"
         },
         {
-            "carpic": "../images/volkswagen.jpg",
+            "carpic": "./images/volkswagen.jpg",
             "brand": "Volkswagen",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -49,7 +49,7 @@
             "price": "32,83 per day"
         },
         {
-            "carpic": "../images/kia-picanto.jpg",
+            "carpic": "./images/kia-picanto.jpg",
             "brand": "Kia Picanto",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -57,7 +57,7 @@
             "price": "33,26 per day"
         },
         {
-            "carpic": "../images/kia.jpg",
+            "carpic": "./images/kia.jpg",
             "brand": "Kia Rio",
             "capacity": "5 person",
             "doors": "4 doors",
@@ -65,7 +65,7 @@
             "price": "22,63 per day"
         },
         {
-            "carpic": "../images/opel.jpg",
+            "carpic": "./images/opel.jpg",
             "brand": "Opel",
             "capacity": "5 person",
             "doors": "4 doors",

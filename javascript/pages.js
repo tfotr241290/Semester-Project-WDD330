@@ -82,9 +82,11 @@ const cars = `
         </header>
     </div>
 
-    <div class="carList">
-
-    </div>
+    <main>
+        <div>
+            <div class="cards"></div>
+        </div>
+    </main>
     <button type="submit" onclick="getPageContent('checkout')">CHECKOUT</button>
 `
 
