@@ -5,7 +5,7 @@
           "brand": "Audi",
           "capacity": "5 person",
           "doors": "4 doors",
-          "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+          "info": "Free cancellation (48h), Includes unlimited mileage, Collision coverage, Third-party damage coverage, Theft coverage",
           "price": "42,83 per day"
         },
         {
@@ -13,7 +13,7 @@
             "brand": "BMW Van",
             "capacity": "5 person",
             "doors": "2 doors",
-            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura de robo",
+            "info": "Free cancellation (48h), Includes unlimited mileage, Collision coverage, Third-party damage coverage, Theft coverage",
             "price": "33,02 per day"
         },
         {
@@ -21,7 +21,7 @@
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+            "info": "Free cancellation (48h), Includes unlimited mileage, Collision coverage, Theft coverage",
             "price": "42,83 per day"
         },
         {
@@ -29,7 +29,7 @@
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Cancelación gratis (48h), Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+            "info": "Includes unlimited mileage, Collision coverage, Third-party damage coverage, Theft coverage",
             "price": "22,85 per day"
         },
         {
@@ -37,7 +37,7 @@
             "brand": "BMW",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Cancelación gratis (48h), Cobertura de daños a terceros, Cobertura de robo",
+            "info": "Free cancellation (48h), Includes unlimited mileage, Collision coverage",
             "price": "42,83 per day"
         },
         {
@@ -45,7 +45,7 @@
             "brand": "Volkswagen",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros",
+            "info": "Includes unlimited mileage, Collision coverage, Theft coverage",
             "price": "32,83 per day"
         },
         {
@@ -53,7 +53,7 @@
             "brand": "Kia Picanto",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de robo",
+            "info": "Free cancellation (48h), Includes unlimited mileage, Collision coverage, Third-party damage coverage, Theft coverage",
             "price": "33,26 per day"
         },
         {
@@ -61,7 +61,7 @@
             "brand": "Kia Rio",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión, Cobertura de daños a terceros, Cobertura de robo",
+            "info": "Free cancellation (48h), Third-party damage coverage, Theft coverage",
             "price": "22,63 per day"
         },
         {
@@ -69,7 +69,7 @@
             "brand": "Opel",
             "capacity": "5 person",
             "doors": "4 doors",
-            "info": "Cancelación gratis (48h), Incluye kilometraje ilimitado, Cobertura por colisión",
+            "info": "Free cancellation (48h), Includes unlimited mileage, Collision coverage, Third-party damage coverage, Theft coverage",
             "price": "30,70 per day"
         }
       ]
