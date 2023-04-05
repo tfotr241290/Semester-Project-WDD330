@@ -4,7 +4,7 @@ export const checkout = `
         <nav class="navigation"></nav>
     </div>
     <main>
-        <form action="" class="checkout-form">
+        <form action="thankyou.html" class="checkout-form">
             <fieldset class="contact-form">
                 <legend>Contact Info</legend>
                 <label class="top" for="fname">First name* <input type="text" name="fname" id="fname" required></label>
@@ -18,5 +18,6 @@ export const checkout = `
                 <label id="cc-exp-csc" for="cc-exp">Expiry date<input id="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="MM/YY" maxlength="5" required></label>
                 <label for="cc-csc">Security code<input id="cc-csc" name="cc-csc" inputmode="numeric" maxlength="3" required></label>
             </fieldset>
+            <input type="submit" value="PAY"></input>
         </form>
-    </main>`
+    </main>`;
