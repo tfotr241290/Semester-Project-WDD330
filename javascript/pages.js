@@ -23,7 +23,7 @@ const home = `
     </div>
 
     <div class="submission">
-        <a href="cars.html"><input type="submit" value="SELECT MY CAR" onclick="getPageContent('cars')"></a>
+        <a href="cars.html"><input type="submit" value="SELECT MY CAR"></a>
     </div>
 
     <div id="car-animation">
@@ -71,27 +71,10 @@ const subscribe = `
         <p>We really appreciate your loyalty. We will maintain you uptaded with the newest offers and limited promotions</p>
     </div>`;
 
-const cars = `
-    <div class="sHeading">
-        <header class="sHeader">
-            <section class="logo"><a href="./index.html"><img class="nav-img" src="https://ik.imagekit.io/tfotr241290/Black_n_White_Luxury__Rent_Car_Logo.png?updatedAt=1679597309897" alt="navimgcar"></a></section><section class="media"><a href="https://www.facebook.com"><img class="face" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt"facebooklogo"></a> <a href="https://www.twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" alt"facebooklogo"></a> <a href="https://www.instagram.com"><img class="insta" src="https://cdn-icons-png.flaticon.com/128/3670/3670125.png" alt"facebooklogo"></a></section>
-        </header>
-    </div>
 
-    <main>
-        <div>
-            <div class="cards"></div>
-        </div>
-    </main>
-    <button type="submit" onclick="getPageContent('checkout')">CHECKOUT</button>
-`;
 
 const checkout = `
-<div class="sHeading">
-<header class="sHeader">
-    <section class="logo"><a href="./index.html"><img class="nav-img" src="https://ik.imagekit.io/tfotr241290/Black_n_White_Luxury__Rent_Car_Logo.png?updatedAt=1679597309897" alt="navimgcar"></a></section><section class="media"><a href="https://www.facebook.com"><img class="face" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt"facebooklogo"></a> <a href="https://www.twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" alt"facebooklogo"></a> <a href="https://www.instagram.com"><img class="insta" src="https://cdn-icons-png.flaticon.com/128/3670/3670125.png" alt"facebooklogo"></a></section>
-</header>
-</div>
+
     <main>
         <form action="" class="checkout-form">
             <fieldset class="contact-form">
@@ -113,7 +96,6 @@ document.querySelector(".carList");
 
 const pages = {
   home: `${home}`,
-  cars: `${cars}`,
   subscribe: `${subscribe}`,
   checkout: `${checkout}`,
 };
@@ -124,9 +106,6 @@ function getPageContent(page) {
   switch (page) {
     case "home":
       contentToReturn = pages.home;
-      break;
-    case "cars":
-      contentToReturn = pages.cars;
       break;
     case "subscribe":
       contentToReturn = pages.subscribe;
@@ -140,4 +119,17 @@ function getPageContent(page) {
   }
 
   document.getElementById("content").innerHTML = contentToReturn;
+}
+
+function getCheckoutContent(page){
+    let checkoutReturn;
+    switch (page) {
+        case "checkout":
+            checkoutReturn = pages.checkout;
+    
+        default:
+            checkoutReturn = pages.checkout;
+          break;
+      }
+      document.querySelector('.cards').innerHTML = checkoutReturn;
 }
