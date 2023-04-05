@@ -31,7 +31,7 @@ const home = `
     </div>
 
     <div class="slogan">
-        <h1 class="slog">With us you hire the best car at the best price</h1>
+    <h1 class="slog">Find the best partner for your trip</h1>
     </div>
 
 
