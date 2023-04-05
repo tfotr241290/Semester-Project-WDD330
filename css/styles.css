@@ -142,7 +142,8 @@ input[type="tel"],
 input#cc-number,
 input#cc-name,
 input#cc-exp,
-input#cc-csc {
+input#cc-csc,
+#checkoutButton {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
@@ -158,14 +159,14 @@ input[type="checkbox"] {
   margin-top: 16px;
 }
 
-input[type="submit"] {
+input[type="submit"], #checkoutButton {
   background-color: var(--secondary-color);
   color: black;
   border: none;
   width: auto;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, #checkoutButton:hover {
   opacity: 0.8;
 }
 
@@ -218,6 +219,7 @@ footer {
 }
 /* CHECKOUT */
 
+form.checkout-form{padding: 5%;}
 .top input,
 .top textarea,
 label.top,
@@ -245,6 +247,9 @@ form label.top input:required:valid {
 
 /* CARS */
 
+.cars-div h1{
+    margin:6% 3% 0%; 
+    font-size: 17px;}
 .cards .card {
   background-color: var(--light-grey);
   border-radius: 4px;
@@ -296,6 +301,7 @@ form label.top input:required:valid {
   padding: 0 15%;
   grid-column: 5;
   grid-row: 4/5;
+  color: var(--primary-color);
 }
 .separator {
   grid-column: 1/4;

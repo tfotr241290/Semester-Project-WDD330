@@ -1,11 +1,3 @@
-// export const cars = `
-// <main>
-//         <div>
-//             <label><input type="checkbox" checked="checked" name="subscribe"></label>
-//             <div class="cards"></div>
-//         </div>
-//     </main>
-// `
 const requestwebsite = "./data.json";
 const cards = document.querySelector(".cards");
 const buttonArea = document.querySelector(".buttonArea");
@@ -21,7 +13,6 @@ async function fetchData() {
 
 function displayCarInfo(carInfo) {
   let card = document.createElement("div");
-  // let label = document.createElement('label');
   let input = document.createElement("input");
   let h2 = document.createElement("h2");
   let p1 = document.createElement("p");
@@ -56,8 +47,6 @@ function displayCarInfo(carInfo) {
   card.appendChild(h3).classList.add("price");
   card.appendChild(separator).classList.add("separator");
 
-  //HERE IS THE PROBLEM, WE ARE TRYING TO APPEND CONTENT TO A DIV THAT DOESN'T EXIST YET, THE CARDS DIV IS IN THE CARS PAGE BUT THIS PAGE HASN'T BEEN LOADED YET THAT IS WHY WE ARE GETTING THE ERROR, IT CANNOT APPEND CARD TO CARDS BECAUSE ITS UNDEFINED BY THE MOMENT.
-  //cards.appendChild(card);
   cards.insertBefore(card, buttonArea);
 }
 
