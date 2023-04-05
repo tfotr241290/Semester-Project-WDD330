@@ -23,7 +23,7 @@ export const displayNav = (data) => {
 
   const navImages = `<img name=slider class="navimages" src="${hero}">`;
 
-  const socialMedia = `<section class="logo"><a href="./index.html"><img class="nav-img" src=${logoPath} alt="navimgcar"></a></section><section class="media"><a href="https://www.facebook.com"><img class="face" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt"facebooklogo"></a> <a href="https://www.twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" alt"facebooklogo"></a> <a href="https://www.instagram.com"><img class="insta" src="https://cdn-icons-png.flaticon.com/128/3670/3670125.png" alt"facebooklogo"></a></section>`;
+  const socialMedia = `<div class="logo"><a href="./index.html"><img class="nav-img" src=${logoPath} alt="navimgcar"></a></div><div class="media"><a href="https://www.facebook.com"><img class="face" src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt"facebooklogo"></a> <a href="https://www.twitter.com"><img class="twitter" src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" alt"facebooklogo"></a> <a href="https://www.instagram.com"><img class="insta" src="https://cdn-icons-png.flaticon.com/128/3670/3670125.png" alt"facebooklogo"></a></div>`;
 
   document.querySelector(".navigation").innerHTML = navImages;
   document.querySelector(".heading").innerHTML = socialMedia;

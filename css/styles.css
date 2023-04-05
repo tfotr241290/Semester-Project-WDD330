@@ -86,8 +86,7 @@ body {
 .grid {
   margin: 2rem;
   display: grid;
-  grid-template-columns: 2 (1fr);
-  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
   text-align: center;
   background-color: var(--light-grey);
   padding: 2rem;
@@ -243,6 +242,9 @@ form label.top input:required {
 }
 form label.top input:required:valid {
   border-left: rgb(202, 252, 202) solid 6px;
+}
+#checkoutButton{
+    text-decoration: none;
 }
 
 /* CARS */
